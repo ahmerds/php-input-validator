@@ -7,7 +7,7 @@ class Validate {
           $_db = null;
 
   public function __construct() {
-    $this->_db = DB::getInstance();
+    // Initialize DB
   }
 
   public function check($source, $items = array()) {
